@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Jakarta:20251129T190000
+DTEND;TZID=Asia/Jakarta:20251129T210000
+SUMMARY:Chris & Gisela Wedding
+DESCRIPTION:Join us in celebrating the wedding of Chris & Gisela!
+LOCATION:Ibis Styles Serpong BSD City
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Chris & Gisela Wedding starts soon!
+END:VALARM
+END:VEVENT
+END:VCALENDAR
