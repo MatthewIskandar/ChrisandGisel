@@ -3079,7 +3079,7 @@ img[alt=tree-1] {
 
 .egift-section {
   position: relative;
-  text-align: center;
+  text-align: left;
   padding: 5rem 0;
 }
 @media (max-width: 767px) {
@@ -3094,8 +3094,8 @@ img[alt=tree-1] {
 .egift-section .tabs-gift {
   position: relative;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   margin: auto;
   width: -moz-fit-content;
   width: fit-content;
@@ -3814,4 +3814,45 @@ body {
   .map-embed {
     height: 400px;
   }
+}
+
+
+
+.wish {
+  display: flex;
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.wish-badge {
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-secondary, #254767);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.wish-description {
+  text-align: left;
+}
+
+.wish-description h6 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.wish-description p {
+  margin: 0.25rem 0;
+  font-size: 0.95rem;
 }
